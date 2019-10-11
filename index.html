@@ -23,11 +23,10 @@
                   /* Remove the attribute, and call this function once more: */
                   elmnt.removeAttribute("data-include");
                   includeHTML();
-                  document.getElementById("home").classList.add('active');
-                  document.getElementById("menu").classList.remove('active');
-                  document.getElementById("reviews").classList.remove('active');
+                  // document.getElementById("home").classList.add('active');
+                  // document.getElementById("menu").classList.remove('active');
                 }
-              }
+              };
               xhttp.open("GET", file, true);
               xhttp.send();
               /* Exit the function: */

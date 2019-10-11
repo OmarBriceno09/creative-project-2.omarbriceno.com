@@ -1,6 +1,7 @@
 /*global fetch*/
-// $2a$10$9Q3FcsJi06VL856epPTxluO.qJoICCBGIyCKUWUGVLus6YMk7sV3G
-const url = "http://shibe.online/api/shibes?count=[1-100]&urls=[true/false]&httpsUrls=[true/false]";
+// 
+const key = "$2a$10$9Q3FcsJi06VL856epPTxluO.qJoICCBGIyCKUWUGVLus6YMk7sV3G";
+const url = "https://www.potterapi.com/v1/sortingHat?q=" + key;
   fetch(url)
     .then(function(response) {
       return response.json();
