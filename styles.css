@@ -4,7 +4,7 @@
     margin-bottom:0px;
     font-family: serif;
     font-size: 55px;
-    background-color: maroon;
+    /*background-color: maroon*/
     
 }
 
@@ -14,7 +14,7 @@
 }
 
 .navbar{
-    background-color:navy;
+    /*background-color:navy;*/
 }
 .nav-item{
     width: 100px;
